@@ -22,7 +22,7 @@ struct node* insert_at_beg(struct node* head, int value)
 
 int main(){
     struct node *head = NULL;
-    struct node *ptr = NULL;
+    // struct node *ptr = NULL;
     head = (struct node *)malloc(sizeof(struct node));
 
     // ptr = head;
