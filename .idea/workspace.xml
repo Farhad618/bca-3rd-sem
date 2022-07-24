@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d428e2e5-c5f6-44a6-afb7-9de97e6826fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StrChangeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca1/CarDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca1/MenuDrivenStringUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca1/NumberPrinting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca1/PasswordCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca1/PrintMultiTime.java" afterDir="false" />
+    <list default="true" id="d428e2e5-c5f6-44a6-afb7-9de97e6826fc" name="Changes" comment="ca 1 project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca1/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca1/Table.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MenuDrivenStringUtility">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="basic-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Table">
     <configuration name="MenuDrivenStringUtility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca1.MenuDrivenStringUtility" />
       <module name="basic-java" />
@@ -100,13 +82,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Table" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca1.Table" />
+      <module name="basic-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Table" />
         <item itemvalue="Application.MenuDrivenStringUtility" />
         <item itemvalue="Application.StrChangeTest" />
         <item itemvalue="Application.PasswordCheck" />
         <item itemvalue="Application.PrintMultiTime" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -119,6 +114,14 @@
       <option name="presentableId" value="Default" />
       <updated>1658113876658</updated>
     </task>
+    <task id="LOCAL-00001" summary="ca 1 project">
+      <created>1658684109667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658684109667</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,5 +134,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ca 1 project" />
+    <option name="LAST_COMMIT_MESSAGE" value="ca 1 project" />
   </component>
 </project>
