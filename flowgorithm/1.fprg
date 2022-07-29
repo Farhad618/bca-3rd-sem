@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Bokhate"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-07-27 07:23:17 AM"/>
+        <attribute name="created" value="Qm9raGF0ZTtERVNLVE9QLUJETUgzS087MjAyMi0wNy0yNzswNjo1ODoxNSBBTTszMDQ5"/>
+        <attribute name="edited" value="Qm9raGF0ZTtERVNLVE9QLUJETUgzS087MjAyMi0wNy0yNzswNzoyMzoxNyBBTTsxOzMxNTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="fun(2,4)"/>
+        </body>
+    </function>
+    <function name="fun" type="Integer" variable="n">
+        <parameters>
+            <parameter name="a" type="Integer" array="False"/>
+            <parameter name="b" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="0"/>
+            <if expression="b&lt;1">
+                <then>
+                    <output expression="n" newline="True"/>
+                </then>
+                <else>
+                    <call expression="fun(a+b+2, b-2)"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
