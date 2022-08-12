@@ -8,7 +8,8 @@ int main(){
     display_array(arr, 10);
     printf("\n");
 
-    insert_at_beginning(arr, 5, 9);
+    // insert_at_beginning(arr, 5, 9);
+    insert_at_position(arr, 5, 9, 10);
 
     display_array(arr, 10);
     return 0;
