@@ -14,7 +14,8 @@ int main(){
     // insert_at_last(arr, 6, 8);
     // insert_at_last(arr, 7, 2);
 
-    delete_from_beginning(arr, 5);
+    // delete_from_beginning(arr, 5);
+    delete_from_position(arr, 5, 4);
 
     display_array(arr, 10);
     return 0;

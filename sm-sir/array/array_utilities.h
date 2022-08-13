@@ -3,3 +3,4 @@
 #include "array_insert_position.c"
 #include "array_insert_last.c"
 #include "array_delete_beginning.c"
+#include "array_delete_position.c"
