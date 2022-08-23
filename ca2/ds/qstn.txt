@@ -1,0 +1,13 @@
+Create a word file for algorithms of array insertion, deletion, linear search, binary search, bubble sort, selection sort, insertion sort, merge sort and quick sort(BCA students).
+
+Create a word file for C programs of array insertion, deletion, linear search, binary search, bubble sort, selection sort, insertion sort, merge sort and quick sort with their outputs(BCA students).
+
+Data Science students create a word file for algorithms of array insertion, deletion, linear search, binary search, bubble sort, selection sort, insertion sort, merge sort .Convert the word files to PDF for submission.
+
+The name of PDF should be roll no_exam name_Subject_code.pdf(for a student having roll 10 and if subject of submission for CA2 is BCAC 303, then it will be 10_CA2_BCAC 303.pdf . For PCA1 it will be 10_PCA1_BCAC393.pdf ).
+
+Copying from other students is strictly not allowed.
+
+The name of PDF should be roll no_Subject_code.pdf(for a student having roll 10 and if subject of submission is BSCDA 303, then it will be 10_BSCDA 303.pdf).
+Name the files properly. BCA students will submit 2 separate pdf files for CA2 and PCA1.(less than 2 MB each one)
+BSCDA students will submit only one pdf file for CA2.(less than 2 MB).
