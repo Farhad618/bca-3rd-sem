@@ -1,0 +1,59 @@
+
+
+class Fathersproperty {
+    public void letterBox() {
+        System.out.println("Accessible to all.");
+    }
+    private void locker(){
+        System.out.println("Only father can access.");
+    }
+    protected void bedroom() {
+        System.out.println("Only accessible to " +
+                "father's family members.");
+    }
+}
+
+class Son extends Fathersproperty{
+
+}
+
+____________
+package ca2;
+
+
+public class Accessibilitytest {
+//    class Fathersproperty {
+        public void letterBox() {
+            System.out.println("Accessible to all.");
+        }
+        private void locker(){
+            System.out.println("Only father can access.");
+        }
+        protected void bedroom() {
+            System.out.println("Only accessible to " +
+                    "father's family members.");
+        }
+//    }
+
+    class Son extends Accessibilitytest{
+
+    }
+    class Someone {
+
+    }
+
+    public static void main(String[] args) {
+        Accessibilitytest a = new Accessibilitytest();
+//        Accessibilitytest.Fathersproperty f = a.new Fathersproperty();
+        Son s = a.new Son();
+        Someone o = a.new Someone();
+//        f.letterBox();
+//        f.bedroom();
+//        o.letterBox();
+        a.bedroom();
+        s.bedroom();
+        s.letterBox();
+    }
+
+
+}
