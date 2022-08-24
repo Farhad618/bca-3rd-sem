@@ -1,0 +1,17 @@
+Step 1.	Start
+Step 2.	Take an array a[] of n elements.
+Step 3.	Input the value of n.
+Step 4.	Input n elements in array a[].
+Step 5.	Initialize, i = 1.
+Step 6.	Go through steps 7, 8, 9, 13 while i < n.
+Step 7.	Set j = i – 1.
+Step 8.	Set key = a[i].
+Step 9.	Go through steps 10, 11, 12 while key <= a[j] and j >= 0.
+Step 10.	Set a[j+1] = a[j].
+Step 11.	Set a[j] = key.
+Step 12.	Set j = j – 1.
+[End of while]
+Step 13.	Set i = i + 1.
+[End of while]
+Step 14.	Print n elements of array a[].
+Step 15.	End.
