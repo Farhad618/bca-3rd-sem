@@ -16,9 +16,9 @@ int main(){
     // insert_at_position(arr, &n, 9, 1);
     // insert_at_position(arr, &n, 8, 1);
     // insert_at_position(arr, &n, 10, 1);
-    insert_at_last(arr, &n, 9);
-    insert_at_last(arr, &n, 8);
-    insert_at_last(arr, &n, 2);
+    // insert_at_last(arr, &n, 9);
+    // insert_at_last(arr, &n, 8);
+    // insert_at_last(arr, &n, 2);
 
     // delete_from_beginning(arr, &n);
     // delete_from_beginning(arr, &n);
@@ -29,9 +29,11 @@ int main(){
     // delete_from_last(arr, &n);
     // delete_from_last(arr, &n);
     // delete_from_last(arr, &n);
+
+    // sort_bubble(arr, n)
     
     display_array(arr, n);
-    printf("\n%d", search_linear(arr, &n, 2));
+    printf("\n%d", search_linear(arr, n, 5));
 
     printf("\n%d", n);
     // return 0;
