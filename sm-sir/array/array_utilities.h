@@ -5,3 +5,4 @@
 #include "array_delete_beginning.c"
 #include "array_delete_position.c"
 #include "array_delete_last.c"
+#include "array_search_linear.c"

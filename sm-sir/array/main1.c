@@ -29,8 +29,10 @@ int main(){
     // delete_from_last(arr, &n);
     // delete_from_last(arr, &n);
     // delete_from_last(arr, &n);
-
+    
     display_array(arr, n);
+    printf("\n%d", search_linear(arr, &n, 2));
+
     printf("\n%d", n);
     // return 0;
 }
