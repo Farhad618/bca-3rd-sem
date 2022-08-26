@@ -10,9 +10,7 @@ void sort_insertion(int *arr, int n)
             {
                 *(arr + (j+1)) = *(arr + j);
                 *(arr+j) = temp;
-            }  else{
-                break; 
-            }   
+            }  
             count++;       
         }
     }
