@@ -1,6 +1,5 @@
 void sort_insertion(int *arr, int n)
 {
-    int count=0;
     for (int i = 1; i < n; i++)
     {
         int temp = *(arr + i);
@@ -8,11 +7,13 @@ void sort_insertion(int *arr, int n)
         {
             if (*(arr + j) > temp)
             {
-                *(arr + (j+1)) = *(arr + j);
-                *(arr+j) = temp;
-            }  
-            count++;       
+                *(arr + (j + 1)) = *(arr + j);
+                *(arr + j) = temp;
+            }
+            else
+            {
+                break;
+            }
         }
     }
-    printf("\n%d\n", count);
 }
