@@ -3,9 +3,11 @@
 // void display_array(int *, int, char);
 
 int main(){
-    int arr[10] = {1, 8, 5, 4, 3};
+    int arr[] = {1, 8, 5, 4, 3};
+    int n = 5;
+    // printf("%d", sizeof(arr)/sizeof(int));
 
-    display_array(arr, 10);
+    display_array(arr, n);
     printf("\n");
 
     // insert_at_beginning(arr, 5, 9);
@@ -14,12 +16,17 @@ int main(){
     // insert_at_last(arr, 6, 8);
     // insert_at_last(arr, 7, 2);
 
-    // delete_from_beginning(arr, 5);
-    // delete_from_position(arr, 5, 4);
-    delete_from_last(arr, 5);
-    delete_from_last(arr, 4);
-    delete_from_last(arr, 3);
+    // delete_from_beginning(arr, &n);
+    // delete_from_beginning(arr, &n);
+    // delete_from_beginning(arr, &n);
+    // delete_from_position(arr, &n, 1);
+    // delete_from_position(arr, &n, 1);
+    // delete_from_position(arr, &n, 1);
+    delete_from_last(arr, &n);
+    delete_from_last(arr, &n);
+    delete_from_last(arr, &n);
 
-    display_array(arr, 10);
-    return 0;
+    display_array(arr, n);
+    printf("\n%d", n);
+    // return 0;
 }
