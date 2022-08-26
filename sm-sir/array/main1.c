@@ -37,6 +37,7 @@ int main(){
     
     display_array(arr, n);
     // printf("\n%d", search_linear(arr, n, 5));
+    printf("\n%d", search_binary(arr, n, 10));
 
     printf("\n%d", n);
     // return 0;
