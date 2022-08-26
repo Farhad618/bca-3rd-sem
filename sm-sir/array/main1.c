@@ -30,7 +30,8 @@ int main(){
     // delete_from_last(arr, &n);
     // delete_from_last(arr, &n);
 
-    sort_bubble(arr, n);
+    // sort_bubble(arr, n);
+    sort_selection(arr, n);
     
     display_array(arr, n);
     // printf("\n%d", search_linear(arr, n, 5));
