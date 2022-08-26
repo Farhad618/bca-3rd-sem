@@ -8,3 +8,4 @@
 #include "array_search_linear.c"
 #include "array_sort_bubble.c"
 #include "array_sort_selection.c"
+#include "array_sort_insertion.c"
