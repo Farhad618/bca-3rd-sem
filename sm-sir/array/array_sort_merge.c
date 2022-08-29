@@ -1,27 +1,10 @@
-// #include <stdio.h>
-// #include <conio.h>
 #include <malloc.h>
-#define size 50
 
 int sizeOfOriginalArray;
 
-void merge(int a[], int, int, int);
-void merge_sort(int a[], int, int);
-/*void main()
-{ int arr[size],i,n;
-  printf("\nEnter the elements in the array:");
-  scanf("%d",&n);
-  printf("\nEnter the elements of array:\n");
-  for(i=0;i<n;i++)
-  {printf("arr[%d]:",i);
-   scanf("%d",&arr[i]);
-  }
-  merge_sort(arr,0,n-1);
-  printf("\nThe sorted array is:\n");
-  for(i=0;i<n;i++)
-  printf("\t%d",arr[i]);
-  getch();
-}*/
+void merge(int *, int, int, int);
+void merge_sort(int *, int, int);
+
 
 void merge(int* arr, int beg, int mid, int end)
 {
@@ -40,7 +23,7 @@ void merge(int* arr, int beg, int mid, int end)
             j++;
         }
         index++;
-    } // end of while
+    }
     if (i > mid)
 
     {
@@ -77,20 +60,7 @@ void merge_sort(int* arr, int beg, int end)
 }
 
 void sort_merge(int *arr, int n) {
-    // int* arrCopy = (int *)calloc(n, sizeof(int));
-    // for (int i = 0; i < n; i++)
-    // {
-    // printf("hi");
-    //     *(arrCopy + i) = *(arr + i);
-    // }
     sizeOfOriginalArray = n;
-    merge_sort(arr, 0, n-1);
-    // printf("\n2\n");
-    // for (int i = 0; i < n; i++)
-    // {
-    //     printf("%d ", *(arrCopy + i));
-    // }
-    
-    
-
+    // main merge sort function call
+    merge_sort(arr, 0, n-1); 
 }
