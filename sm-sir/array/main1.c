@@ -6,7 +6,7 @@ int main(){
     int arr[] = {1, 8, 5, 4, 3};
     int n = 5;
     // printf("%d", sizeof(arr)/sizeof(int));
-
+    // printf("\n1\n");
     display_array(arr, n);
     printf("\n");
 
@@ -32,12 +32,13 @@ int main(){
 
     // sort_bubble(arr, n);
     // sort_selection(arr, n);
-    sort_insertion(arr, n);
+    // sort_insertion(arr, n);
+    sort_merge(arr, n);
 
-    
+    // printf("\n3\n");
     display_array(arr, n);
     // printf("\n%d", search_linear(arr, n, 5));
-    printf("\n%d", search_binary(arr, n, 10));
+    // printf("\n%d", search_binary(arr, n, 10));
 
     printf("\n%d", n);
     // return 0;
