@@ -33,7 +33,8 @@ int main(){
     // sort_bubble(arr, n);
     // sort_selection(arr, n);
     // sort_insertion(arr, n);
-    sort_merge(arr, n);
+    // sort_merge(arr, n);
+    sort_quick(arr, n);
 
     // printf("\n3\n");
     display_array(arr, n);
