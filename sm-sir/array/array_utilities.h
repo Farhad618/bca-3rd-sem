@@ -12,3 +12,4 @@
 #include "array_sort_insertion.c"
 #include "array_sort_merge.c"
 #include "array_sort_quick.c"
+#include "array_case.c"

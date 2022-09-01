@@ -42,29 +42,11 @@ int partition(int *a, int beg, int end)
                 *(a + left) = temp;
                 loc = left;
             }
-        } // if ends
-    }     // while
+        }
+    }
     return loc;
 }
 
 void sort_quick(int* arr, int n){
     quicksort(arr, 0, n - 1);
 }
-
-// void main()
-// {
-//     int a[20], i, n;
-//     printf("\nEnter how many elements:");
-//     scanf("%d", &n);
-//     printf("\nEnter the elements:\n");
-//     for (i = 0; i < n; i++)
-//     {
-//         printf("a[%d]:", i);
-//         scanf("%d", &a[i]);
-//     }
-//     quicksort(a, 0, n - 1);
-//     printf("\nSorted array is:");
-//     for (i = 0; i < n; i++)
-//         printf("\t%d", a[i]);
-//     getch();
-// }
