@@ -1,7 +1,7 @@
 int search_binary(int* arr, int n, int search_val){
     int beg = 0;
     int end = n-1;
-    while (beg < end)
+    while (beg <= end)
     {
         int mid = (beg + end) / 2;
         if (*(arr+mid) == search_val)

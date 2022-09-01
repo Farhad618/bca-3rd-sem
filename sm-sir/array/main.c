@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "array_utilities.h"
 
-int main(){
+int main()
+{
     // number of elements initialized in array arr[]
     // must be equal to the value of variable n
     int arr[] = {};
@@ -9,7 +10,7 @@ int main(){
 
     int option = 0;
 
-    do
+    while (1)
     {
         switch (option)
         {
@@ -20,13 +21,13 @@ int main(){
             insert(arr, &n);
             break;
         case 2:
-            delete();
+            delete (arr, &n);
             break;
         case 3:
-            search();
+            search(arr, n);
             break;
         case 4:
-            sort();
+            sort(arr, n);
             break;
         case 5:
             printf("array[%d] = {", n);
@@ -34,7 +35,10 @@ int main(){
             printf("}\n");
             break;
         case 6:
-            return 0;  
+            insert_many(arr, &n);
+            break;
+        case 7:
+            return 0;
             break;
         default:
             printf("Enter a valid command\n");
@@ -44,10 +48,7 @@ int main(){
 
         printf("> ");
         scanf("%d", &option);
-
-    } while (option != 6);
-    
-
+    }
 
     return 0;
 }

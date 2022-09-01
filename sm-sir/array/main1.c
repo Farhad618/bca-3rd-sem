@@ -3,14 +3,14 @@
 // void display_array(int *, int, char);
 
 int main(){
-    int arr[] = {};
-    int n = 0;
+    int arr[] = {1,2,3,4,5};
+    int n = 5;
     // printf("%d", sizeof(arr)/sizeof(int));
     // printf("\n1\n");
     display_array(arr, n);
     printf("\n");
 
-    insert_at_beginning(arr, &n, 9);
+    // insert_at_beginning(arr, &n, 9);
     // insert_at_beginning(arr, &n, 6);
     // insert_at_beginning(arr, &n, 2);
     // insert_at_position(arr, &n, 9, 1);
@@ -37,9 +37,9 @@ int main(){
     // sort_quick(arr, n);
 
     // printf("\n3\n");
-    display_array(arr, n);
+    // display_array(arr, n);
     // printf("\n%d", search_linear(arr, n, 5));
-    // printf("\n%d", search_binary(arr, n, 10));
+    // printf("\n%d", search_binary(arr, n, 5));
 
     printf("\n%d", n);
     // return 0;
