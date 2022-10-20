@@ -1,0 +1,13 @@
+1. start
+2. if avail == null
+	print("memory is not available.")
+	go to step 10
+	[end of if] 
+3. set new_node = avail
+4. input the value of the new_node as val
+5. set new_node->data = val
+6. set new_node->prev = null
+7. set new_node->next = head
+8. set head->prev = new_node
+9. head = new_node
+10. end

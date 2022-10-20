@@ -1,0 +1,13 @@
+1. start
+2. if head == null
+	print("no nodes to delete")
+	go to step 8
+	[end of if] 
+3. set old_head = head
+4. if head->next == null
+	go to step 7
+	[end of if]
+5. set head = head->next
+6. set head->prev = null
+7. release the alocated memory of old_head
+8. end

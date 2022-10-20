@@ -1,0 +1,12 @@
+1. start
+2. if head == null
+	print("no nodes to delete")
+	go to step 8
+	[end of if] 
+3. set end_node = head
+4. go through step 5 while (end_node->next != null)
+5. end_node = end_node->next
+	[end of while]
+6. end_node->prev->next = null
+7. release the alocated memory of end_node
+8. end

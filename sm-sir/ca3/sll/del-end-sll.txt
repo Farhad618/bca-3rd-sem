@@ -1,0 +1,13 @@
+1. start
+2. if head == null
+	print("no nodes to delete")
+	go to step 9
+	[end of if] 
+3. set end_node = head and take a variable preptr
+4. go through step 5 while (end_node->next != null)
+5. set preptr = end_node
+6. set end_node = end_node->next
+	[end of while]
+7. preptr->next = null
+8. release the alocated memory of end_node
+9. end

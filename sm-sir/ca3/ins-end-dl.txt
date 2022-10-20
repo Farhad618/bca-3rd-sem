@@ -1,0 +1,16 @@
+1. start
+2. if avail == null
+	print("memory is not available.")
+	go to step 12
+	[end of if] 
+3. set new_node = avail
+4. set ptr = head
+5. loop through step 6 while (ptr->next != null)
+6. ptr = ptr->next
+	[end of while]
+7. input the value of the new_node as val
+8. set new_node->data = val
+9. set new_node->prev = ptr
+10. set new_node->next = null
+11. set ptr->next = new_node
+12. end
