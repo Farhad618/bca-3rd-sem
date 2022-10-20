@@ -1,0 +1,10 @@
+step 1. start
+step 2. if top == size - 1
+		print "stack overflow"
+		goto step 7
+	[end of if]
+step 3. set, top = top + 1
+step 4. say the array is taken as stack[]
+step 5. input the value to be pushed as val
+step 6. set, stack[top] = val
+step 7. stop
